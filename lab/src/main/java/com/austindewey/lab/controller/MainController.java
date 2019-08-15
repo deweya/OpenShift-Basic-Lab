@@ -1,4 +1,4 @@
-package com.redhat.ace.controller;
+package com.austindewey.lab.controller;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -6,14 +6,13 @@ import java.util.Set;
 
 import javax.validation.Valid;
 
+import com.austindewey.lab.model.Index;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import com.redhat.ace.model.Index;
 
 @Controller
 public class MainController {
